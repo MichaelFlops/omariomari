@@ -1,0 +1,20 @@
+//colors
+$black: #000;
+$white: #fff;
+
+//urls
+$url_0: url(http://placehold.it/1920x400);
+
+.business-header {
+	height: 400px;
+	background: $url_0 center center no-repeat scroll;
+	background-size: cover;
+}
+.tagline {
+	//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: 0 0 10px $black;
+	color: $white;
+}
+.img-center {
+	margin: 0 auto;
+}

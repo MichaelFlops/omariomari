@@ -1,0 +1,59 @@
+<head>
+  <title>omari</title>
+</head>
+
+<body>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+</body>
+
+<template name="main">
+    <div id="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav navbar-centered inverse">
+              <a href="/"><img src="omari-black-place-holder.jpg"></a>
+              <li><h3><a href="/">Mission</a></h3></li>
+              <li><h3><a href="/team">Team</a></h3></li>
+              <li><h3><a href="/labs">Labs</a></h3></li>
+              <li><h3><a href="/portfolio">Portfolio</a></h3></li>
+              <li><h3><a href="/contact">Contact</a></h3></li>
+                <a href="http://gadfly.meteor.com/"><img src="gadlfy-placeholder.svg"></a>
+<!--               <li class="sidebar-brand">
+                    <span class="glyphicon glyphicon-heart" aria-hidden="true">from Gadfly</span>
+                  </li> -->
+            </ul>
+        </div>
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    {{> yield}}
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+      <!-- <footer class="row">
+      <div class="fixed">
+        <div class="large-12 columns">
+          <hr/>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>© Open Source or Die. </p>
+            </div>
+            <div class="large-6 columns">
+              <ul class="inline-list right">
+                <li><a href="#">Section 1</a></li>
+                <li><a href="#">Section 2</a></li>
+                <li><a href="#">Section 3</a></li>
+                <li><a href="#">Section 4</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </div>
+      </footer> -->
+</template>

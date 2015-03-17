@@ -1,0 +1,86 @@
+/*@font-face {
+  font-family: 'LIGHTWEIGHT-SERIF';
+  src: url('LIGHTWEIGHT-SERIF.ttf');
+}
+
+body, h1, h2, h3, h4, h5, h6, ul, li {
+  font-family: 'LIGHTWEIGHT-SERIF';
+  src: url('LIGHTWEIGHT-SERIF.ttf');
+}*/
+
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+
+.sexy-fade{
+  -webkit-animation: fade-in 5s ease;
+  -moz-animation: fade-in ease-in-out 5s both;
+  -ms-animation: fade-in ease-in-out 5s both;
+  -o-animation: fade-in ease-in-out 5s both;
+  animation: fade-in s ease;
+  position: absolute;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -10;   
+  width: 100%;
+  height: auto;
+}
+ 
+@-webkit-keyframes fade-in{0%{opacity:0;} 100%{opacity:1;}}
+@-moz-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@-o-keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+@keyframes fade-in{0%{opacity:0} 100%{opacity:1}}
+
+canvas
+{
+  transform: rotate(-90deg);
+  /*background-image: url('https://docs.zoho.com/viewembeddoc.do?docId=34tnzdaf04f4666624ebea695e8902684d2ee&ftype=image&imgWidth=770&imgHeight=515&version=1.0');*/
+  background-size: 103% 109%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: -1px;
+  background-position-y: -16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div b
+{
+	font-size:20px;
+	font-family: sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+div b:nth-child(1)
+{
+	color:#6C7A89;
+}
+div b:nth-child(1):after,div b:nth-child(2):after
+{
+	content:" : ";
+}
+div b:nth-child(3):after
+{
+	content:"  ";
+}
+div b:nth-child(2)
+{
+	color:#4ECDC4;
+}
+div b:nth-child(3)
+{
+	color:#87D37C;
+}
+div b:nth-child(4)
+{
+	font-weight: 400;
+}
